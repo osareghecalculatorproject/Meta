@@ -1,0 +1,26 @@
+{
+  "name": "threads-oauth-server",
+  "version": "1.0.0",
+  "description": "Backend server to handle Threads OAuth redirect and token exchange",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "threads",
+    "oauth",
+    "meta",
+    "access-token",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
