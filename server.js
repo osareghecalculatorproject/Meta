@@ -13,7 +13,7 @@ app.get("/auth/callback", async (req, res) => {
       body: new URLSearchParams({
         client_id: "4165825233682600",
         client_secret: "e726319138b11385a6d08c50dc0d64c8",
-        redirect_uri: "https://yourdomain.com/auth/callback",
+        redirect_uri: "https://meta-qe59.onrender.com/auth/callback",
         code,
       }),
     });
